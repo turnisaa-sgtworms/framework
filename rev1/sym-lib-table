@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name framework-rescue)(type Legacy)(uri ${KIPRJMOD}/framework-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "framework-rescue")(type "KiCad")(uri "${KIPRJMOD}/framework-rescue.kicad_sym")(options "")(descr ""))
 )
