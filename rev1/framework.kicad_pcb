@@ -41,7 +41,7 @@
 		(allow_soldermask_bridges_in_footprints no)
 		(grid_origin 96.330375 177.303625)
 		(pcbplotparams
-			(layerselection 0x00010f0_ffffffff)
+			(layerselection 0x0001000_7ffffffe)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
@@ -60,9 +60,9 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
-			(dxfpolygonmode yes)
-			(dxfimperialunits yes)
-			(dxfusepcbnewfont yes)
+			(dxfpolygonmode no)
+			(dxfimperialunits no)
+			(dxfusepcbnewfont no)
 			(psnegative no)
 			(psa4output no)
 			(plotreference yes)
@@ -71,7 +71,7 @@
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(subtractmaskfromsilk yes)
-			(outputformat 1)
+			(outputformat 3)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
@@ -56573,6 +56573,16 @@
 		(uuid "42bc2012-b1b0-4a2c-b2ea-7f3dc2efd054")
 	)
 	(gr_line
+		(start 91.567875 315.178625)
+		(end 91.567875 319.941125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4421d3a9-3b54-4ab7-a115-9da2e5dea49e")
+	)
+	(gr_line
 		(start 260.105375 184.591125)
 		(end 282.067875 184.591125)
 		(stroke
@@ -56581,6 +56591,16 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "51976f48-deca-4072-842f-b2fbc321b833")
+	)
+	(gr_line
+		(start 96.330375 319.941125)
+		(end 91.567875 319.941125)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "54c4f1e1-8534-43bd-b4c1-e7a9335554fd")
 	)
 	(gr_line
 		(start 91.567875 450.528625)
